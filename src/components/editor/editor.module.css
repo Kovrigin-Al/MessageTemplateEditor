@@ -1,0 +1,23 @@
+.variablesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+}
+
+.editorContainer {
+    width: 100wh;
+    height: 100vh;
+    padding: 10px;
+}
+
+.title {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.templateContainer {
+    margin-top: 40px;
+}

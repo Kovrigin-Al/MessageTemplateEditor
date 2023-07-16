@@ -1,0 +1,67 @@
+.common {
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.common:focus {
+    font-weight: bolder;
+}
+
+.common:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+    font-weight: lighter;
+}
+
+.default {
+    background: rgb(199, 199, 199);
+}
+
+.default:hover {
+    background: #ededed;
+}
+
+.default:active {
+    background: #d8d8d8;
+    /* box-shadow: 2px 2px rgb(220, 220, 220); */
+}
+
+/* main button styles  */
+
+.main {
+    padding: 3px;
+    min-width: 80px;
+    text-align: center;
+    color: #e8e8e8;
+    background: #061c39;
+}
+
+.main:hover {
+    background: #061c39d8;
+}
+
+/* styles for variables in the editor */
+
+.variableTagBtn {
+    margin: 5px;
+    font-style: italic;
+    background: #c2f496;
+}
+
+.variableTagBtn:hover {
+    background: #dbfbbf;
+}
+
+/* styles for if button in the editor */
+
+.ifThenElse {
+    padding: 8px;
+    background: #c3c3c3;
+    border-radius: 5px;
+}
+
+.ifThenElse:hover {
+    background: #dedede;
+}

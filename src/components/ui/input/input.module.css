@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 5px;
+}
+.container .inputText {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
+    box-shadow: none !important;
+}
+.container .inputText:focus {
+    border-color: rgba(100, 136, 181, 0.759);
+    border-width: medium medium 2px;
+}
+.container .label {
+    position: absolute;
+    pointer-events: none;
+    top: 18px;
+    left: 10px;
+    transition: 0.2s ease all;
+}
+.container .inputText:focus ~ .label,
+.container .inputText:not(:focus):valid ~ .label {
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    opacity: 1;
+}

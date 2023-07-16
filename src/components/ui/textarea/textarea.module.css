@@ -1,0 +1,11 @@
+.textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.textarea:focus {
+    border: 2px solid blue;
+}

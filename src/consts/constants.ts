@@ -1,0 +1,11 @@
+export enum Consts {
+    START_TEXTAREA = "startTextarea"
+}
+
+export enum TemplateActions {
+    CHANGE_FOCUSED_BODY = "CHANGE_FOCUSED_BODY",
+    CREATE_CONDITION = "CREATE_CONDITION",
+    SET_FOCUSED_REF = "SET_FOCUSED_REF",
+    ADD_VARIABLE = 'ADD_VARIABLE',
+    DELETE_CONDITION = "DELETE_CONDITION"
+}

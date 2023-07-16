@@ -1,0 +1,14 @@
+.errorContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}

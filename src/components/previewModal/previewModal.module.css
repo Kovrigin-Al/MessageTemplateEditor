@@ -1,0 +1,30 @@
+.title {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.variableContainer {
+    padding: 5px;
+    margin: 2px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
